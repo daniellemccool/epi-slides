@@ -305,7 +305,7 @@ slides > slide:not(.nobackground):before {
   position: absolute;
   bottom: 20px;
   left: 60px;
-  background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
+  background: 
   -webkit-background-size: 30px 30px;
   -moz-background-size: 30px 30px;
   -o-background-size: 30px 30px;
@@ -779,13 +779,13 @@ q {
 }
 /* line 514, ../scss/default.scss */
 q:before {
-  content: '“';
+  content: '';
   position: absolute;
   margin-left: -0.5em;
 }
 /* line 519, ../scss/default.scss */
 q:after {
-  content: '”';
+  content: '';
   position: absolute;
   margin-left: 0.1em;
 }

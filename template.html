@@ -44,19 +44,171 @@ URL: https://code.google.com/p/io-2012-slides
 
   <slide>
     <hgroup>
-      <h2>Slide with Bullets</h2>
+      <h2>Levels of Measurement</h2>
+      <h3>A quick review</h3>
     </hgroup>
     <article>
-      <ul>
-        <li>Titles are formatted as Open Sans with bold applied and font size is set at 45</li>
-        <li>Title capitalization is title case
-          <ul>
-            <li>Subtitle capitalization is title case</li>
-          </ul>
-        </li>
-        <li>Subtitle capitalization is title case</li>
-        <li>Titles and subtitles should never have a period at the end</li>
-      </ul>
+      <table>
+        <ul>
+          <tr>
+            <td>
+              <li>Categorical
+                <ul>
+                  <li>sex</li>
+                  <li>status</li>
+                </ul>
+              </li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <li>Ordinal
+                <ul>
+                  <li>histological differentiation (1 = poor, 2 = moderate, 3 = well)</li>
+                  <li>stages of cancer</li>
+                </ul>
+              </li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <li>Ratio
+                <ul>
+                  <li>temperature (&deg;C)</li>
+                  <li>date</li>
+                </ul>
+              </li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <li>Interval
+                <ul>
+                  <li>BMI</li>
+                  <li>tumor size</li>
+                </ul>
+              </li>
+            </td>
+          </tr>
+        </ul>
+      </table>
+    </article>
+  </slide>
+
+
+  <slide>
+    <hgroup>
+      <h2>Levels of Measurement</h2>
+      <h3>Which can we consider continuous?</h3>
+    </hgroup>
+    <article>
+      <table>
+        <ul class = "build">
+          <tr>
+            <td>
+              <li>Categorical
+                <ul>
+                  <li>sex</li>
+                  <li>status</li>
+                </ul>
+              </li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <li>Ordinal
+                <ul>
+                  <li>histological differentiation (1 = poor, 2 = moderate, 3 = well)</li>
+                  <li>stages of cancer</li>
+                </ul>
+              </li>
+            </td>
+          </tr>
+          <tr>
+            <td class = "highlight">
+              <li>Ratio
+                <ul>
+                  <li>temperature (&deg;C)</li>
+                  <li>date</li>
+                </ul>
+              </li>
+            </td>
+          </tr>
+          <tr>
+            <td class = "highlight">
+              <li>Interval
+                <ul>
+                  <li>BMI</li>
+                  <li>tumor size</li>
+                </ul>
+              </li>
+            </td>
+          </tr>
+        </ul>
+      </table>
+    </article>
+  </slide>
+
+  <slide segue dark quote nobackground>
+    <aside class="gdbar"><img src="images/avl-128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <q>In a 1997 article, 38% of the contemporary articles surveyed categorized continuous variables.</q>
+      <div class="author">
+        Del Priore G, Zandieh P, Lee MJ. Treatment of continuous data as categoric variables in obstetrics and gynecology. Obstet Gynecol 1997;89: 351-4.
+      </div>
+    </article>
+  </slide>
+
+
+  <slide>
+    <hgroup>
+      <h2>The Good</h2>
+      <h3>Why it's done</h3>
+    </hgroup>
+    <article>
+      <ul class = "build fade">
+        <li>Simplifies the statistical analysis</li>
+        <li>Helps with presentation</li>
+        <li>Non-normal data</li>
+      </ul>      
+    </article>
+  </slide>
+
+
+  <slide>
+    <hgroup>
+      <h2>The Bad</h2>
+      <h3>What are the possible consequences?</h3>
+    </hgroup>
+    <article>
+      <ul class = "build fade">
+        <li>Loss of information -> loss of power</li>
+        <li>Increase false positive rate</li>
+        <li>Underestimation of variability within a group</li>
+        <li>You will account for less confounding</li>
+      </ul>      
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>The Ugly</h2>
+      <h3>How bad can it get?</h3>
+    </hgroup>
+    <article flexbox vcenter>
+    <img src="images/graph_1.png" alt="Description" title="Description">
+    <footer class="source">Barnwell‐Ménard, Jean‐Louis, Qing Li, and Alan A Cohen. "Effects of Categorization Method, Regression Type, and Variable Distribution on the Inflation of Type‐I Error Rate when Categorizing a Confounding Variable." Statistics in Medicine, 34.6 (2015): 936-949. </footer>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>The Ugly</h2>
+      <h3>How bad can it get?</h3>
+    </hgroup>
+    <article flexbox vcenter>
+    <img src="images/graph_2.png" alt="Description" title="Description">
+    <footer class="source">Barnwell‐Ménard, Jean‐Louis, Qing Li, and Alan A Cohen. "Effects of Categorization Method, Regression Type, and Variable Distribution on the Inflation of Type‐I Error Rate when Categorizing a Confounding Variable." Statistics in Medicine, 34.6 (2015): 936-949. </footer>
     </article>
   </slide>
 

@@ -512,12 +512,12 @@ q {
   line-height: 72px;
 
   &:before {
-    content: '“';
+    content: '*';
     position: absolute;
     margin-left: -0.5em;
   }
   &:after {
-    content: '”';
+    content: '*';
     position: absolute;
     margin-left: 0.1em;
   }
