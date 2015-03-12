@@ -24,7 +24,7 @@ var SLIDE_CONFIG = {
   presenters: [{
     name: 'Danielle McCool',
     company: 'PhD Candidate - Schmidt Group',
-    gplus: 'http://plus.google.com/1234567890',
+    //gplus: 'http://plus.google.com/1234567890',
     //twitter: '@daniellemccool',
     www: 'http://daniellemc.cool',
     github: 'http://github.com/daniellemccool'
