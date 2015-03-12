@@ -469,6 +469,13 @@ h2 {
   letter-spacing: -2px;
   color: #515151;
 }
+h2.bg {
+  font-size: 45px;
+  line-height: 45px;
+  letter-spacing: -2px;
+  color: #515151;
+  background-color: rgba(255,255,255,0.8);
+}
 
 /* line 287, ../scss/default.scss */
 h3 {
@@ -477,6 +484,15 @@ h3 {
   line-height: 2;
   font-weight: inherit;
   color: #797979;
+}
+
+h3.bg {
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 2;
+  font-weight: inherit;
+  color: #797979;
+  background-color: rgba(255,255,255,0.8)
 }
 
 /* line 295, ../scss/default.scss */
@@ -1094,6 +1110,16 @@ article.smaller q:before, article.smaller q:after {
   position: absolute;
   bottom: 70px;
   left: 60px;
+}
+
+.source.bg {
+  font-size: 14px;
+  color: darkgrey;
+  position: absolute;
+  bottom: 70px;
+  left: 60px;
+  background-color:rgba(255,255,255,0.8);
+
 }
 
 /* line 733, ../scss/default.scss */
